@@ -10,13 +10,13 @@ int main(){
 	cout<<"Masukan Koordinat Y = ";
 	cin>>y;
 	{
-	if (x>0 && y>0)
+	if (x>0 && y>0) //plus dan plus
 		cout<<"KUADRAN I";
-	if (x<0 && y>0)
+	if (x<0 && y>0) //plus dan minus
 		cout<<"KUADRAN II";
-	if (x<0 && y<0)
+	if (x<0 && y<0) //minus dan minus
 		cout<<"KUADRAN III";
-	if (x>0 && y<0)
+	if (x>0 && y<0) //minus dan plus
 		cout<<"KUADRAN IV";
 }
 	return 0;
